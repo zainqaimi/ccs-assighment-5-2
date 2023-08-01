@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    text-transform: capitalize;
+    background-image:  url(img/pexels-tirachard-kumtanom-733857.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#box{
+    border: solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.363);
+    box-shadow: 1px 1px 1px 1px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 70%;
+    margin-top: 10%;
+
+}
+#registration{
+    font-weight: bold;
+    text-align:center ;
+    
+    
+}
+.fname{
+    background-image: url(img/user.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+    margin: 10px;
+}
+.fname:hover{
+    background-color: hwb(0 77% 22% / 0.701);
+}
+#email{
+    background-image: url(img/email.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+    margin: 10px;
+}
+#email:hover{
+    background-color: hwb(0 77% 22% / 0.701);
+}
+#password{
+    background-image: url(img/lock.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+    margin: 10px;
+}
+#password:hover{
+    background-color: hwb(0 77% 22% / 0.701);
+}
+#country{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px silver;
+    margin: 10px;
+    width: 90%;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: left;
+}
+#country:hover{
+    background-color: hwb(0 77% 22% / 0.701);
+}
+#sign{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(166, 165, 165);
+    margin: 10px;
+    width: 90%;
+    background-color: rgb(95, 6, 6);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+#sign:focus{
+   background-color: rgb(17, 98, 5);
+   }
